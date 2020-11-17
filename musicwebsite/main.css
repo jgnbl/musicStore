@@ -1,0 +1,105 @@
+body {
+  background-color: #DADED4;
+  color:  #3C403D;
+}
+
+
+header {
+  max-width: 100%;
+  margin: auto;
+  height: 10%;
+  left: 0;
+}
+
+#searchSongSection {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+#searchSongSection input {
+width: 100%;
+padding: 10px 8px;
+font-size: 1.7rem;
+margin-bottom: 3%;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: groove;
+background-color: #eee;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  padding: 2%;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  }
+
+
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    padding: 2%;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    }
+
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+
+.musicRow {
+  border: solid 1px black;
+  display: block;
+}
+
+.songCard {
+  background-color: red;
+  display: inline-block;
+  padding: 10%;
+  margin: auto;
+}
